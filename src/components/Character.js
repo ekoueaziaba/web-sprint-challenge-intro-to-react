@@ -21,8 +21,8 @@ const Character = (props) => {
 
     return ( 
         <CharacterWrapper>
-            <CharacterWrapperText type="character">CHARACTER</CharacterWrapperText>
-            <CharacterWrapperText type="character-name">{props.name}</CharacterWrapperText>
+            <CharacterWrapperText>CHARACTER</CharacterWrapperText>
+            <CharacterWrapperText>{props.name}</CharacterWrapperText>
         </CharacterWrapper>
      );
 }
